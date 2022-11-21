@@ -12,7 +12,7 @@ Por isso,em nosso desafio, nos vamos setar alguns critérios mínimos para a apl
 - Realizar teste na API do Ploomes nas seguintes entidades:
   - CRUD em Clientes (/Contacts)
   - CRUD em Negócios (/Deals)
-- Simular o uso do sistema semelhante ao realizado pelo usuário final. Devem ser testadas as seguintes funcionalidades:
+- Teste no Front-end simulando o uso do sistema semelhante ao realizado pelo usuário final. Devem ser testadas as seguintes funcionalidades:
   - CRUD em Clientes
   - CRUD em Negócios
 
@@ -23,10 +23,8 @@ Por isso,em nosso desafio, nos vamos setar alguns critérios mínimos para a apl
 
 # Entrega
 
--- Para a entrega, clonar esse repositório e indicar QUAL O PROBLEMA QUE A SUA APLICAÇÃO SE PROPÕE A RESOLVER;
-<Construção>
-
-Incluir também instruções de execução, limitações, bugs conhecidos e quais seriam os próximos passos para a evolução do sistema.
+- Para a entrega, commitar na branch `main` os testes criados;
+- Incluir também instruções de execução, limitações, bugs conhecidos e quais seriam os próximos passos para a evolução do sistema;
 
 # Documentação da API do Ploomes:
 
