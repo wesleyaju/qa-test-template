@@ -20,7 +20,6 @@ Por isso,em nosso desafio, nos vamos setar alguns critérios mínimos para a apl
 
 # Diferenciais:
 
-- Teste no Mobile também;
 - Testar mais funcionalidades além das especificadas;
 
 # Entrega
