@@ -1,0 +1,22 @@
+{
+  "name": "ploomes-qa",
+  "version": "1.0.0",
+  "description": "Qa test for Ploomes",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wesleyaju/qa-test-template.git"
+  },
+  "author": "Wesley Almeida",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wesleyaju/qa-test-template/issues"
+  },
+  "homepage": "https://github.com/wesleyaju/qa-test-template#readme",
+  "dependencies": {
+    "cypress": "^11.2.0"
+  }
+}
