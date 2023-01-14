@@ -23,3 +23,24 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+
+import signInPage from '../support/pageobjects/signIn';
+import { HorizontalMenu, LeftSideMenu } from '../support/pageobjects/components/';
+import { UrlFactory, UserFactory } from '../factories/index'
+
+Cypress.Commands.add(
+    'login',
+    (
+        user = {
+            email: UserFactory.users.trial.email,
+            password: UserFactory.users.trial.password,
+        },
+    ) => {
+        cy.visit(UrlFactory.urls.login.full);
+        signInPage.haveLogo();
+        signInPage.fillForm(user.trial);
+        signInPage.toSubmit();
+        HorizontalMenu.haveUsername(user.trial);
+        LeftSideMenu.haveLogo();
+    },
+);
