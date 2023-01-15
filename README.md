@@ -84,7 +84,7 @@ Você também pode ver a lista de todos os [colaboradores](https://github.com/us
 
 ## 📄 Licença
 
-Este projeto está sob a licença (![Bower](https://img.shields.io/bower/l/MI?label=license).
+Este projeto está sob a licença ![Bower](https://img.shields.io/bower/l/MI?label=license).
 
 ## 🎁 Expressões de gratidão
 
