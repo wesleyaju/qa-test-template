@@ -1,91 +1,103 @@
-# Título do Projeto
+# Título do projeto
 
-Um parágrafo com a descrição do projeto
+Um parágrafo da descrição do projeto vai aqui
 
-## Guia
+## 🚀 Começando
 
-Através dessas instruções você irá obter uma cópia do projeto e poderá executá-lo em sua máquina, para propósitos de desenvolvimento e teste. Leia as notas de deploy para descobrir como fazer deploy em produção.
+Essas instruções permitirão que você obtenha uma cópia do projeto em operação na sua máquina local para fins de desenvolvimento e teste.
 
-### Pré-requisitos
+Consulte **[Implantação](#-implanta%C3%A7%C3%A3o)** para saber como implantar o projeto.
 
-O que é necessário para instalar o software e como fazê-lo.
+### 📋 Pré-requisitos
 
-```
-Dê exemplos
-```
-
-### Instalação
-
-Um série de exemplos passo a passo que mostram como configurar o ambiente de desenvolvimento.
-
-Descreva o passo
+De que coisas você precisa para instalar o software e como instalá-lo?
 
 ```
-Dê um exemplo
+Dar exemplos
 ```
 
-E repita
+### 🔧 Instalação
+
+Uma série de exemplos passo-a-passo que informam o que você deve executar para ter um ambiente de desenvolvimento em execução.
+
+Diga como essa etapa será:
 
 ```
-Até concluir
+Dar exemplos
 ```
 
-Termine dando um exemplo de utilização do software.
-
-## Executando os testes
-
-Explique como executar os testes automatizados para este software.
-
-### Testes end to end
-
-Explique o que estes testes fazem e por quê
+E repita:
 
 ```
-Dê um exemplo
+Até finalizar
 ```
 
-### E testes de estilo de codificação
+Termine com um exemplo de como obter dados do sistema ou como usá-los para uma pequena demonstração.
 
-Explique o que estes testes fazem e por quê
+## ⚙️ Executando os testes
+
+Explicar como executar os testes automatizados para este sistema.
+
+### 🔩 Analise os testes de ponta a ponta
+
+Explique que eles verificam esses testes e porquê.
 
 ```
-Dê um exemplo
+Dar exemplos
 ```
 
-## Processo de Deploy
+### ⌨️ E testes de estilo de codificação
 
-Notas adicionais sobre como colocar o software em produção
+Explique que eles verificam esses testes e porquê.
 
-## Construído com
+```
+Dar exemplos
+```
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - O framework web utilizado
-* [Maven](https://maven.apache.org/) - Gerenciamento de dependências
-* [ROME](https://rometools.github.io/rome/) - Uasdo para gerar o Feed RSS
+## 📦 Implantação
 
-## Como contruibuir
+Adicione notas adicionais sobre como implantar isso em um sistema ativo
 
-Por favor, leia [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) para detalhes do nosso código de conduta, e sobre como submeter um pull request para nós.
+## 🛠️ Construído com
 
-## Versionamento
+Mencione as ferramentas que você usou para criar seu projeto
 
-Nós usamos [SemVer](http://semver.org/) para controle de versionamento. Para as versões disponíveis, veja a [tag neste repositório](https://github.com/your/project/tags). 
+* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - O framework web usado
+* [Maven](https://maven.apache.org/) - Gerente de Dependência
+* [ROME](https://rometools.github.io/rome/) - Usada para gerar RSS
 
-## Autores
+## 🖇️ Colaborando
 
-* **Billie Thompson** - *Texto Original* - [PurpleBooth](https://github.com/PurpleBooth)
-* **Matheus Reis** - *Tradução para PT-BR* - [ReisDev](https://github.com/reisdev)
+Por favor, leia o [COLABORACAO.md](https://gist.github.com/usuario/linkParaInfoSobreContribuicoes) para obter detalhes sobre o nosso código de conduta e o processo para nos enviar pedidos de solicitação.
 
-Veja também a lista de [colaboradores](https://github.com/your/project/contributors) que fizeram parte deste projeto.
+## 📌 Versão
 
-## Licença
+Nós usamos [SemVer](http://semver.org/) para controle de versão. Para as versões disponíveis, observe as [tags neste repositório](https://github.com/suas/tags/do/projeto). 
 
-Este projeto está licenciado sob a licença MIT - consulte o arquivo [LICENSE.md](LICENSE.md) para obter mais detalhes.
+## ✒️ Autores
 
-## Créditos
+Mencione todos aqueles que ajudaram a levantar o projeto desde o seu início
 
-* Gorjeta para qualquer pessoa cujo código foi usado
-* Inspiração
-* etc
+* **Um desenvolvedor** - *Trabalho Inicial* - [umdesenvolvedor](https://github.com/linkParaPerfil)
+* **Fulano De Tal** - *Documentação* - [fulanodetal](https://github.com/linkParaPerfil)
+
+Você também pode ver a lista de todos os [colaboradores](https://github.com/usuario/projeto/colaboradores) que participaram deste projeto.
+
+## 📄 Licença
+
+Este projeto está sob a licença (sua licença) - veja o arquivo [LICENSE.md](https://github.com/usuario/projeto/licenca) para detalhes.
+
+## 🎁 Expressões de gratidão
+
+* Conte a outras pessoas sobre este projeto 📢;
+* Convide alguém da equipe para uma cerveja 🍺;
+* Um agradecimento publicamente 🫂;
+* etc.
+
+
+---
+⌨️ com ❤️ por [Wesley Almeida](https://gist.github.com/wesleyaju) 😊
+
 
 
 # QA Developer Test
