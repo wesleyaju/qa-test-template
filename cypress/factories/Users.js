@@ -1,6 +1,5 @@
 // import data from '../utils/mockData';
 
-
 const users = {
   trial: {
     email: Cypress.env('USER_EMAIL'),
