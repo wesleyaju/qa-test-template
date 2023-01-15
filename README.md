@@ -96,7 +96,7 @@ Este projeto está sob a licença (sua licença) - veja o arquivo [LICENSE.md](h
 
 
 ---
-⌨️ com ❤️ por [Wesley Almeida](https://gist.github.com/wesleyaju) 😊
+⌨️ com ❤️ por [Wesley Almeida](https://github.com/wesleyaju) 😊
 
 
 
