@@ -1,5 +1,5 @@
 # Título do projeto
-
+[![](https://img.shields.io/npm/v/txm.svg)][1] [![](https://img.shields.io/coveralls/github/anko/txm)][coveralls]
 Um parágrafo da descrição do projeto vai aqui
 
 ## 🚀 Começando
