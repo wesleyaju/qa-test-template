@@ -60,8 +60,8 @@ Adicione notas adicionais sobre como implantar isso em um sistema ativo
 
 ## 🛠️ Construído com
 
-* [Cypress.io](https://docs.cypress.io/guides/overview/why-cypress) - O framework web usado
-* [NODE.JS](https://nodejs.org/en/docs/) - Desenvolvimento BackEnd em tempo de execução para Javascript.
+* [CYPRESS](https://docs.cypress.io/guides/overview/why-cypress) - O framework web usado
+* [NODE](https://nodejs.org/en/docs/) - Desenvolvimento BackEnd em tempo de execução para Javascript.
 * [NPM](https://docs.npmjs.com/cli/v6/commands/npm-install) - Gerente de Dependência
 
 
