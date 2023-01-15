@@ -60,11 +60,10 @@ Adicione notas adicionais sobre como implantar isso em um sistema ativo
 
 ## 🛠️ Construído com
 
-Mencione as ferramentas que você usou para criar seu projeto
+* [Cypress.io](https://docs.cypress.io/guides/overview/why-cypress) - O framework web usado
+* [NODE.JS](https://nodejs.org/en/docs/) - Desenvolvimento BackEnd em tempo de execução para Javascript.
+* [NPM](https://docs.npmjs.com/cli/v6/commands/npm-install) - Gerente de Dependência
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - O framework web usado
-* [Maven](https://maven.apache.org/) - Gerente de Dependência
-* [ROME](https://rometools.github.io/rome/) - Usada para gerar RSS
 
 ## 🖇️ Colaborando
 
