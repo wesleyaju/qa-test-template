@@ -34,13 +34,14 @@ Cypress.Commands.add(
         user = {
             email: UserFactory.users.trial.email,
             password: UserFactory.users.trial.password,
+            name: UserFactory.users.trial.name,
         },
     ) => {
         cy.visit(UrlFactory.urls.login.full);
         signInPage.haveLogo();
-        signInPage.fillForm(user.trial);
+        signInPage.fillForm(user);
         signInPage.toSubmit();
-        HorizontalMenu.haveUsername(user.trial);
+        HorizontalMenu.haveUsername(user);
         LeftSideMenu.haveLogo();
     },
 );
