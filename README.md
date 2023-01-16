@@ -1,7 +1,7 @@
-# Título do projeto
-![Bower](https://img.shields.io/bower/l/MI?label=license).
+# QA Developer Test - Ploomes
+![Node](https://img.shields.io/badge/Node-v12.3.0-orange) ![GitHub top language](https://img.shields.io/github/languages/top/wesleyaju/qa-test-template) ![npm](https://img.shields.io/badge/npm-v8.1.2-yellow) ![Faker-js](https://img.shields.io/badge/Faker--js-v7.6.0-yellowgreen) ![Faker-br](https://img.shields.io/badge/Faker--br-v0.4.1-brightgreen) ![Cypress](https://img.shields.io/badge/Cypress-v12.3.0-green)
 
-Um parágrafo da descrição do projeto vai aqui
+Nesta etapa foi desenvolvido um teste automatizado usando o Framework Cypress e JavaScript, bem como algumas bibliotecas necessárias para uma melhor realização do desafio proposto pela Ploomes cumprindo os critérios mínimos estabelecidos.
 
 ## 🚀 Começando
 
@@ -63,7 +63,7 @@ Adicione notas adicionais sobre como implantar isso em um sistema ativo
 
 * [CYPRESS](https://docs.cypress.io/guides/overview/why-cypress) - O framework web usado
 * [NODE](https://nodejs.org/en/docs/) - Desenvolvimento BackEnd em tempo de execução para Javascript.
-* [NPM](https://docs.npmjs.com/cli/v6/commands/npm-install) - Gerente de Dependência
+* [NPM](https://docs.npmjs.com/cli/v8/commands/npm-install?v=true) - Gerente de Dependência
 
 
 ## 🖇️ Colaborando
@@ -74,8 +74,8 @@ Por favor, leia o [COLABORACAO.md](https://gist.github.com/usuario/linkParaInfoS
 
 Mencione todos aqueles que ajudaram a levantar o projeto desde o seu início
 
-* **Um desenvolvedor** - *Trabalho Inicial* - [umdesenvolvedor](https://github.com/linkParaPerfil)
-* **Fulano De Tal** - *Documentação* - [fulanodetal](https://github.com/linkParaPerfil)
+* **QA Engineer** - *Trabalho Inicial* - [Desenvolvedor de Teste](https://github.com/wesleyaju)
+* **Analista de Teste** - *Documentação* - [WesleyAlmeida](https://github.com/wesleyaju)
 
 Você também pode ver a lista de todos os [colaboradores](https://github.com/usuario/projeto/colaboradores) que participaram deste projeto.
 
@@ -92,5 +92,6 @@ Este projeto está sob a licença
 
 
 ---
-⌨️ com ❤️ por [Wesley Almeida](https://github.com/wesleyaju) 😊
+Por [Wesley Almeida](https://github.com/wesleyaju) 😊
+[LinkedIn](https://www.linkedin.com/in/wesleyalmeida-qa)
 
