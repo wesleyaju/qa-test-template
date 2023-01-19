@@ -7,7 +7,7 @@ class LeftSideMenu {
   };
 
   goContacts = () => {
-    cy.contains(el.entityItem, 'Clientes').click()
+    cy.contains(el.entityItem, 'Clientes', { timeout: 15000 }).click()
     contactsPage.checkpoint()
   };
 }
