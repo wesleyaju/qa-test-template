@@ -4,6 +4,15 @@ const companyName = data.company();
 
 const contacts = {
   company: {
+    default: {
+      name: data.company(),
+      tel: '88888888888',
+      email: data.email({ domain: 'teste2e.com' }),
+      obs: data.sentence(),
+      location: {
+        street: data.street(),
+      },
+    },
     random: {
       name: companyName,
       corporateName: companyName,
@@ -11,9 +20,11 @@ const contacts = {
       origin: 'Linkedin',
       cnpj: data.cnpj(),
       tel: '99999999999',
-      about: data.paragraph(),
-
-      address: {
+      email: data.email({ domain: 'teste2e.com' }),
+      website: 'https://ploomes.com/',
+      relationship: 'Parceiro',
+      obs: data.paragraph(),
+      location: {
         postalCode: data.zip({ plusfour: true }),
         street: data.street(),
         number: data.number({ min: 1, max: 10000 }),
@@ -23,35 +34,25 @@ const contacts = {
         province: data.state(),
         country: data.country({ full: true }),
       },
-
-      socialNetworks: {
-        website: 'https://beta.coodesh.com/',
-        linkedin: 'https://www.linkedin.com/company/coodesh/',
-        facebook: 'https://facebook.com/coodesh',
-        twitter: 'https://twitter.com/coodesh',
-        instagram: 'https://www.instagram.com/coodeshbr/',
-        github: 'https://github.com/coodesh',
-      },
-
-      contact: {
-        email: data.email({ domain: 'teste2e.com' }),
-        
-        whats: '99999999999',
-      },
-
-      integration: {
-        id: data.id(),
-        activity: 'Software{downArrow}{enter}',
-      },
-
-      permissions: {
-        user: data.email({ domain: 'teste2e.com' }),
-        permissionOne: 'Receber notificações{enter}',
-        permissionTwo: 'Editar vagas{enter}',
-        permissionThree: 'Editar empresa{enter}',
-        permissionFour: 'Editar permissões{enter}',
-      },
-    }
+    },
+  },
+  person: {
+    default: {
+      name: data.name(),
+      email: data.email({ domain: 'teste2e.com' }),
+      cpf: data.cpf(),
+      obs: data.sentence(),
+    },
+    random: {
+      name: data.name(),
+      tel: '99999999999',
+      email: data.email({ domain: 'teste2e.com' }),
+      role: '{downArrow}{enter}',
+      department: '{downArrow}{enter}',
+      cpf: data.cpf(),
+      birthDate: data.datePast(),
+      obs: data.paragraph(),
+    },
   }
 };
 
