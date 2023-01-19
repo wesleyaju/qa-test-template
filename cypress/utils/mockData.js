@@ -64,10 +64,10 @@ export default {
 
   number: (config) => faker.datatype.number({ min: config.min, max: config.max }),
 
-  street: () => faker.address.streetName(),
-  zip: () => faker.address.zipCode(),
-  state: () => faker.address.state(),
-  city: () => faker.address.city(),
+  street: () => fakerbr.address.streetName(),
+  zip: () => fakerbr.address.zipCode(),
+  state: () => fakerbr.address.state(),
+  city: () => fakerbr.address.city(),
   country: () => faker.address.country(),
 };
 
