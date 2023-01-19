@@ -36,12 +36,33 @@ Cypress.Commands.add(
             password: UserFactory.users.trial.password,
             name: UserFactory.users.trial.name,
         },
+        
+        { cacheSession = true } = {}
     ) => {
-        cy.visit(UrlFactory.urls.login.full);
-        signInPage.haveLogo();
-        signInPage.fillForm(user);
-        signInPage.toSubmit();
-        HorizontalMenu.haveUsername(user);
-        LeftSideMenu.haveLogo();
+        const login = () => {
+            cy.visit(UrlFactory.urls.logins.default.full);
+            signInPage.haveLogo();
+            signInPage.fillForm(user);
+            signInPage.toSubmit();
+            HorizontalMenu.haveUsername(user);
+            LeftSideMenu.haveLogo();
+        };
+        
+        const validate = () => {
+            cy.visit(UrlFactory.urls.summary.full);
+            cy.location('pathname', { timeout: 2000 }).should('not.eq', UrlFactory.urls.logins.new.pathname);
+        }
+
+        const options = {
+            cacheAcrossSpecs: true,
+            validate
+        };
+
+        if (cacheSession) {
+            cy.session(user, login, options);
+        } else {
+            login();
+        }
+
     },
 );
