@@ -1,116 +1,11 @@
-# Título do projeto
+# QA Developer Test - Ploomes
+![Node](https://img.shields.io/badge/Node-v12.3.0-orange) ![GitHub top language](https://img.shields.io/github/languages/top/wesleyaju/qa-test-template) ![npm](https://img.shields.io/badge/npm-v8.1.2-yellow) ![Faker-js](https://img.shields.io/badge/Faker--js-v7.6.0-yellowgreen) ![Faker-br](https://img.shields.io/badge/Faker--br-v0.4.1-brightgreen) ![Cypress](https://img.shields.io/badge/Cypress-v12.3.0-green) ![CleanCode](https://img.shields.io/badge/Clean%20Code-Evangelist-_.svg)
 
-Um parágrafo da descrição do projeto vai aqui
+Nesta etapa foi desenvolvido um teste automatizado usando o framework Cypress e JavaScript, bem como algumas bibliotecas necessárias para uma melhor realização do desafio proposto pela Ploomes, cumprindo os critérios mínimos estabelecidos.
 
-## 🚀 Começando
-
-Essas instruções permitirão que você obtenha uma cópia do projeto em operação na sua máquina local para fins de desenvolvimento e teste.
-
-Consulte **[Implantação](#-implanta%C3%A7%C3%A3o)** para saber como implantar o projeto.
-
-### 📋 Pré-requisitos
-
-De que coisas você precisa para instalar o software e como instalá-lo?
-
-```
-Dar exemplos
-```
-
-### 🔧 Instalação
-
-Uma série de exemplos passo-a-passo que informam o que você deve executar para ter um ambiente de desenvolvimento em execução.
-
-Diga como essa etapa será:
-
-```
-Dar exemplos
-```
-
-E repita:
-
-```
-Até finalizar
-```
-
-Termine com um exemplo de como obter dados do sistema ou como usá-los para uma pequena demonstração.
-
-## ⚙️ Executando os testes
-
-Explicar como executar os testes automatizados para este sistema.
-
-### 🔩 Analise os testes de ponta a ponta
-
-Explique que eles verificam esses testes e porquê.
-
-```
-Dar exemplos
-```
-
-### ⌨️ E testes de estilo de codificação
-
-Explique que eles verificam esses testes e porquê.
-
-```
-Dar exemplos
-```
-
-## 📦 Implantação
-
-Adicione notas adicionais sobre como implantar isso em um sistema ativo
-
-## 🛠️ Construído com
-
-* [Cypress.io](https://docs.cypress.io/guides/overview/why-cypress) - O framework web usado
-* [NODE.JS](https://nodejs.org/en/docs/) - Desenvolvimento BackEnd em tempo de execução para Javascript.
-* [NPM](https://docs.npmjs.com/cli/v6/commands/npm-install) - Gerente de Dependência
-
-
-## 🖇️ Colaborando
-
-Por favor, leia o [COLABORACAO.md](https://gist.github.com/usuario/linkParaInfoSobreContribuicoes) para obter detalhes sobre o nosso código de conduta e o processo para nos enviar pedidos de solicitação.
-
-## 📌 Versão
-
-Nós usamos [SemVer](http://semver.org/) para controle de versão. Para as versões disponíveis, observe as [tags neste repositório](https://github.com/suas/tags/do/projeto). 
-
-## ✒️ Autores
-
-Mencione todos aqueles que ajudaram a levantar o projeto desde o seu início
-
-* **Um desenvolvedor** - *Trabalho Inicial* - [umdesenvolvedor](https://github.com/linkParaPerfil)
-* **Fulano De Tal** - *Documentação* - [fulanodetal](https://github.com/linkParaPerfil)
-
-Você também pode ver a lista de todos os [colaboradores](https://github.com/usuario/projeto/colaboradores) que participaram deste projeto.
-
-## 📄 Licença
-
-Este projeto está sob a licença (sua licença) - veja o arquivo [LICENSE.md](https://github.com/usuario/projeto/licenca) para detalhes.
-
-## 🎁 Expressões de gratidão
-
-* Conte a outras pessoas sobre este projeto 📢;
-* Convide alguém da equipe para uma cerveja 🍺;
-* Um agradecimento publicamente 🫂;
-* etc.
-
-
----
-⌨️ com ❤️ por [Wesley Almeida](https://github.com/wesleyaju) 😊
-
-
-
-# QA Developer Test
-
-Parabéns por chegar até esta fase do processo seletivo para Desenvolvedor QA.
-
-Aqui na Ploomes valorizamos muito uma qualidade: autonomia. Isso quer dizer que, uma vez que um problema é apresentado para um dos nossos colaboradores, cabe a este decidir qual a melhor solução.
-
-Por isso,em nosso desafio, nos vamos setar alguns critérios mínimos para a aplicação e deixar você tomar as decisões mais profundas sobre a aplicação, como bibliotecas, estrutura da aplicação e etc.
-
-# Critérios mínimos:
-
+## 👩‍💻 Critérios mínimos exigidos:
 - Aplicação em JavaScript
-- [Clean Code](https://becode.com.br/clean-code/)
+- Clean Code
 - Realizar teste na API do Ploomes nas seguintes entidades:
   - CRUD em Clientes (/Contacts)
   - CRUD em Negócios (/Deals)
@@ -119,31 +14,86 @@ Por isso,em nosso desafio, nos vamos setar alguns critérios mínimos para a apl
   - CRUD em Clientes
   - CRUD em Negócios
 
-# Diferenciais:
+🎯 Diferenciais sugeridos:
+- Testar mais funcionalidades além das especificadas:
 
-- Testar mais funcionalidades além das especificadas;
+## 🔧 Instalação
+ Essas instruções permitirão que você obtenha uma cópia do projeto em operação na sua máquina local para fins de desenvolvimento e teste.
+ 
+### Pré requisito: 
 
-# Entrega
+  - Node versão 16.10.0 ou superior (Priorize versões LTS)
 
-- Para a entrega, commitar na branch `main` os testes criados;
-- Incluir também instruções de execução, limitações, bugs conhecidos e quais seriam os próximos passos para a evolução do sistema;
+Com o Node instalado execute os seguintes comandos:
 
-# Documentação da API do Ploomes:
+```bash
+# clonar repositório
+git clone https://github.com/wesleyaju/qa-test-template.git
 
-Para acessar a api do Ploomes você precisará da chave de integração, que você consegue pegar seguindo a documentação a seguir: https://developers.ploomes.com/
+# entrar na pasta do projeto qa-test-template
+cd qa-test-template
 
-# Criação de um conta trial para realização dos testes:
+# Instalar NPM
+npm install
 
-Você pode criar uma conta trial para realização do teste proposto através do link: https://www.ploomes.com/versao-trial
+# depois instale as dependências
+npm install --save-dev @faker-js/faker
+# e
+npm install faker-br
+```
 
-# Helpers
+## 🖇️ Dependências
 
-[O que é o módulo de clientes?](https://suporte.ploomes.com/pt-BR/articles/5452155-o-que-e-o-modulo-de-clientes)
+Dependências necessárias para a correta execução dos testes.
 
-[Novo módulo de negócios](https://suporte.ploomes.com/pt-BR/articles/5452170-novo-modulo-de-negocios-08-08-19)
+<div align="left">
+  <img src="https://github.com/faker-js/faker/blob/next/docs/public/logo.svg" width="30"/> Faker-js - Gerador de grandes massas de dados falsos (mas realistas) para desenvolvimento testes.
+  
+  <img src="https://github.com/faker-js/faker/blob/next/docs/public/logo.svg" width="30"/> Faker-br - Gerador de grandes massas de dados falsos para desenvolvimento testes, tendo como língua nativa o Português-Brasil.</div>
+ 
+## 📦 Notas Adicionais
 
-[Como criar negócios](https://suporte.ploomes.com/pt-BR/articles/5452169-como-criar-negocios)
+- O arquivo cypress.env.json.example do projeto deve ser renomeado para cypress.env.json
+- Dentro desse arquivo cypress.env.json deve-se adicionar as credenciais para login, por exemplo:
+  ```bash
+  {
+    "USER_EMAIL": "",
+    "USER_PASSWORD": "",
+    "USER_NAME": ""
+  }```
 
-[Curso de como utilizar o módulo de clientes](https://universidade.ploomes.com/courses/clientes)
+## ⚙️ Executando os testes
 
-[Curso de como utilizar o workflow](https://universidade.ploomes.com/courses/workflow)
+```bash
+# executar o projeto
+npm run e2e:open
+```
+
+### 🔩 Analise os testes de ponta a ponta
+
+Explique que eles verificam esses testes e porquê.
+
+
+## 🛠️ Construído com as Tecnologias
+
+* [![cypress](https://img.shields.io/badge/-cypress-%23E5E5E5?style=for-the-badge&logo=cypress&logoColor=058a5e)](https://docs.cypress.io/guides/overview/why-cypress) - O framework web usado.
+* [![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/en/docs/) - Desenvolvimento BackEnd em tempo de execução para Javascript.
+* [![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)](https://www.w3schools.com/js/) - JavaScript é a linguagem de programação web mais popular do mundo.
+
+
+## ✒️ Autor
+
+* **QA Engineer** - *Trabalho Inicial e Documentação* - [Desenvolvedor de Teste](https://github.com/wesleyaju)
+
+## 📄 Licença
+
+Este projeto está sob a licença MIT.
+
+## 🎁 Expressões de gratidão
+
+* Grato a Ploomes pelo oportunidade de mostrar um pouco do meu trabalho e conhecimento 📢;
+
+---
+Por [Wesley Almeida](https://github.com/wesleyaju) 😊
+[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/wesleyalmeida-qa)
+
