@@ -34,7 +34,7 @@ class ContactsNewCompany {
   }
 
   editCompany = (company) => {
-    cy.get(el.name, { timeout: 15000 }).clear().type(company.name);
+    cy.get(el.name, { timeout: 15000 }).clear({ force: true }).type(company.name);
     cy.get(el.tel).clear().type(company.tel);
     cy.contains(el.locationSection, 'Localização').click();
     cy.contains(el.addressDiv, 'Endereço').find(el.addressInput).first().clear({ force: true }).type(company.location.street, { force: true });

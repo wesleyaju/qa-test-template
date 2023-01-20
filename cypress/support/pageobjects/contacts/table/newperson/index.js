@@ -6,7 +6,7 @@ class ContactsNewPerson {
     }
 
     createCompany = (company) => {
-        cy.contains(el.companyDiv, 'Empresa', { timeout: 15000 }).find(el.companyInput).click().wait(1000).type(company.name).wait(1000).type('{downArrow}{enter}');
+        cy.contains(el.companyDiv, 'Empresa', { timeout: 15000 }).find(el.companyInput).click().wait(1000).type(company.name).wait(2000).type('{downArrow}{enter}');
         cy.get(el.modalCreateCompanyTitle).should('have.text', 'Criar');
         cy.contains(el.modalCreateCompanySegmentDiv, 'Segmento').find(el.modalCreateCompanySegmentInput).click().wait(1000).type(company.segment);
         cy.contains(el.modalCreateCompanyOriginDiv, 'Origem').find(el.modalCreateCompanyOriginInput).click().wait(1000).type(company.origin).wait(1000).type('{downArrow}{enter}');
