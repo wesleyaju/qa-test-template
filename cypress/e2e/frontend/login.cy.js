@@ -1,5 +1,5 @@
-import { LeftSideMenu } from '../support/pageobjects/components/';
-import { UrlFactory, UserFactory } from '../factories/index'
+import { LeftSideMenu } from '../../support/pageobjects/components';
+import { UrlFactory, UserFactory } from '../../factories/index'
 
 describe('sign in', () => {  
   context('when the data is correct', () => {

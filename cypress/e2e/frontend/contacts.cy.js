@@ -1,8 +1,8 @@
-import contactsPage from '../support/pageobjects/contacts/table';
-import { LeftSideMenu } from '../support/pageobjects/components/';
-import { ContactFactory, UrlFactory } from '../factories/index';
+import contactsPage from '../../support/pageobjects/contacts/table';
+import { LeftSideMenu } from '../../support/pageobjects/components';
+import { ContactFactory, UrlFactory } from '../../factories/index';
 
-describe('must create a contacts', () => {
+describe('must interact with contacts', () => {
   beforeEach(() => {
     cy.login()
     cy.visit(UrlFactory.urls.contacts.table.full)

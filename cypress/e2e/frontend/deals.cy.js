@@ -1,7 +1,8 @@
-import dealsPage from '../support/pageobjects/deals/funnel'
-import contactsPage from '../support/pageobjects/contacts/table'
-import { LeftSideMenu } from '../support/pageobjects/components/';
-import { UrlFactory, ContactFactory, DealFactory } from '../factories/index';
+import dealsPage from '../../support/pageobjects/deals/funnel'
+import contactsPage from '../../support/pageobjects/contacts/table'
+import data from '../../utils/mockData'
+import { LeftSideMenu } from '../../support/pageobjects/components';
+import { UrlFactory, ContactFactory, DealFactory } from '../../factories/index';
 
 describe('must create a deals', () => {
   beforeEach(() => {
@@ -10,6 +11,9 @@ describe('must create a deals', () => {
     LeftSideMenu.goDeals()
   });
   context('deal', () => {
+    before('create product group', () => {
+      cy.create('/Products@Groups', {"name": data.name()})
+    });
     it('create', () => {
       dealsPage.newDeal();
       dealsPage.createFullDeal(DealFactory.deals.deal.random, ContactFactory.contacts.person.random);
