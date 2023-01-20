@@ -27,6 +27,14 @@ const urls = {
             hostname: 'app10.ploomes.com',
             pathname: '/contacts/table',
         }
+    },
+    deals: {
+        funnel: {
+            full: 'https://app10.ploomes.com/Deals/funnel',
+            protocol: 'https',
+            hostname: 'app10.ploomes.com',
+            pathname: 'Deals/funnel',
+        }
     }
 };
 
