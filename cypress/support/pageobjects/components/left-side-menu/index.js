@@ -1,6 +1,6 @@
 import { el } from './elements';
-import contactsPage from '../../contacts/table'; 
-import dealsPage from '../../deals/funnel'; 
+import contactsPage from '../../contacts/table';
+import dealsPage from '../../deals/funnel';
 
 class LeftSideMenu {
   haveLogo = () => {

@@ -10,4 +10,3 @@ exports.el = {
     modalDeleteTitle: '.modal-header h4',
     modalDeleteConfirm: '.modal a',
 };
-  

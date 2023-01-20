@@ -4,7 +4,7 @@ const urls = {
             full: 'https://app.ploomes.com/Login',
             protocol: 'https',
             hostname: 'app.ploomes.com',
-            pathname: 'Login', 
+            pathname: 'Login',
         },
         new: {
             full: 'https://app10.ploomes.com/login',
@@ -12,7 +12,7 @@ const urls = {
             hostname: 'app10.ploomes.com',
             pathname: 'login',
         }
-        
+
     },
     summary: {
         full: 'https://app10.ploomes.com/',

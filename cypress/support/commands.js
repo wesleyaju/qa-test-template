@@ -36,7 +36,7 @@ Cypress.Commands.add(
             password: UserFactory.users.trial.password,
             name: UserFactory.users.trial.name,
         },
-        
+
         { cacheSession = true } = {}
     ) => {
         const login = () => {
@@ -47,7 +47,7 @@ Cypress.Commands.add(
             HorizontalMenu.haveUsername(user);
             LeftSideMenu.haveLogo();
         };
-        
+
         const validate = () => {
             cy.visit(UrlFactory.urls.summary.full);
             cy.location('pathname', { timeout: 2000 }).should('not.eq', `/${UrlFactory.urls.logins.new.pathname}`);

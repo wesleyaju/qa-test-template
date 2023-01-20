@@ -32,7 +32,7 @@ describe('must interact with contacts', () => {
       cy.visit(UrlFactory.urls.contacts.table.full);
       contactsPage.findCompanyInTable(ContactFactory.contacts.company.random);
       contactsPage.selectCompanyInTable(ContactFactory.contacts.company.random);
-      contactsPage.deleteLastCompany();  
+      contactsPage.deleteLastCompany();
     });
   });
   context('person', () => {
@@ -55,7 +55,7 @@ describe('must interact with contacts', () => {
       cy.visit(UrlFactory.urls.contacts.table.full);
       contactsPage.findCompanyInTable(ContactFactory.contacts.company.random);
       contactsPage.selectCompanyInTable(ContactFactory.contacts.company.random);
-      contactsPage.deleteLastCompany();  
+      contactsPage.deleteLastCompany();
     });
   });
 });

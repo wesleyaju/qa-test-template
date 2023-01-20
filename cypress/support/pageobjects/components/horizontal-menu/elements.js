@@ -1,4 +1,3 @@
 exports.el = {
     userImg: '#leftRenderImage',
 };
-  

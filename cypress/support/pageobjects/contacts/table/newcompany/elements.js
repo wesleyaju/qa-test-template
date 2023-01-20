@@ -29,4 +29,3 @@ exports.el = {
     submit: 'aside button',
     newCompanyTitle: 'new-contact-page-side-menu .font-very-big'
 };
-  

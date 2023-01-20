@@ -4,4 +4,3 @@ exports.el = {
     password: '#Password',
     submit: '#Bt_Login',
 };
-  

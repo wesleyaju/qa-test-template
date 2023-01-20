@@ -12,7 +12,7 @@ describe('must create a deals', () => {
   });
   context('deal', () => {
     before('create product group', () => {
-      cy.create('/Products@Groups', {"name": data.name()})
+      cy.create('/Products@Groups', { "name": data.name() })
     });
     it('create', () => {
       dealsPage.newDeal();
