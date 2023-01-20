@@ -7,6 +7,7 @@ module.exports = defineConfig({
   video: true,
   screenshotsFolder: 'cypress/snapshots',
   videosFolder: 'cypress/videos',
+  baseUrlApi: 'https://api2.ploomes.com',
   e2e: {
     setupNodeEvents(on, config) {
       // implement node event listeners here
