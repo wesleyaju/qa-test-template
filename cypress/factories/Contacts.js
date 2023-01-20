@@ -5,6 +5,7 @@ const companyName = data.company();
 const contacts = {
   company: {
     default: {
+      TypeId: 1,
       name: data.company(),
       tel: '88888888888',
       email: data.email({ domain: 'teste2e.com' }),
@@ -14,6 +15,7 @@ const contacts = {
       },
     },
     random: {
+      TypeId: 1,
       name: companyName,
       corporateName: companyName,
       segment: '{downArrow}{enter}',
@@ -38,12 +40,14 @@ const contacts = {
   },
   person: {
     default: {
+      TypeId: 2,
       name: data.name(),
       email: data.email({ domain: 'teste2e.com' }),
       cpf: data.cpf(),
       obs: data.sentence(),
     },
     random: {
+      TypeId: 2,
       name: data.name(),
       tel: '99999999999',
       email: data.email({ domain: 'teste2e.com' }),
@@ -53,6 +57,11 @@ const contacts = {
       birthDate: data.datePast(),
       obs: data.paragraph(),
     },
+    api: {
+      TypeId: 2,
+      name: data.word(),
+      otherName: data.word(),
+    }
   }
 };
 

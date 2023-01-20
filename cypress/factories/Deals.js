@@ -8,7 +8,7 @@ const deals = {
             contact: data.email({ domain: 'teste2e.com' }),
             origin: 'Facebook',
             otherUsers: '{downArrow}{enter}',
-            products: data.word()
+            products: data.word(),
         },
         random: {
             title: data.company(),
@@ -16,8 +16,13 @@ const deals = {
             contact: data.email({ domain: 'teste2e.com' }),
             origin: 'Site',
             otherUsers: '{downArrow}{enter}',
-            products: data.word()
+            products: data.word(),
         },
+        api: {
+            title: data.word(),
+            otherTitle: data.word(),
+            price: data.number({ min: 1, max: 1000 }),
+        }
     },
 };
 
