@@ -50,7 +50,7 @@ Cypress.Commands.add(
         
         const validate = () => {
             cy.visit(UrlFactory.urls.summary.full);
-            cy.location('pathname', { timeout: 2000 }).should('not.eq', UrlFactory.urls.logins.new.pathname);
+            cy.location('pathname', { timeout: 2000 }).should('not.eq', `/${UrlFactory.urls.logins.new.pathname}`);
         }
 
         const options = {
