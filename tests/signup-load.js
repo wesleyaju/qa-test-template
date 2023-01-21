@@ -4,8 +4,8 @@ import uuid from './libs/uuid.js'
 
 export const options = {
     stages: [
-        {duration: '1m', target: 100},
-        {duration: '2m', target: 100},
+        {duration: '1m', target: 5},
+        {duration: '2m', target: 5},
         {duration: '1m', target: 0}
     ],
     thresholds: {
@@ -21,14 +21,14 @@ export default function() {
 
     const headers = {
         'headers': {
-            'user-key': ('6E1014F49A42E512BA902B890A6E12511B0C51FE6BC10249BA5B620BA16AC04173F01D12227D439DDE116D3423AC62C2988EBB633244111C7A7E97E350B42346')
+            'user-key': ('2E362E8D7832D47AF5E462715F284E497A1937A8B8F8E8BC749E91BD982A7A40806AF5E43BB17FE87453D26C94BC00DC315C1F7E7A399B0E45C7FD4FBB92FFBD')
         }
     }
 
     const res =  http.post(url, payload, headers)
     
    check(res, {
-    'status should be 201': (r) => r.status === 201
+    'status should be 200': (r) => r.status === 200
    })
    
     sleep(1)

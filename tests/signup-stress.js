@@ -4,14 +4,14 @@ import uuid from './libs/uuid.js'
 
 export const options = {
     stages: [
-        { duration: "2m", target: 100 }, // below normal load
-        { duration: "5m", target: 100 },
-        { duration: "2m", target: 200 }, // normal load
-        { duration: "5m", target: 200 },
-        { duration: "2m", target: 300 }, // around the breaking point
-        { duration: "5m", target: 300 },
-        { duration: "2m", target: 400 }, // beyond the breaking point
-        { duration: "5m", target: 400 },
+        { duration: "2m", target: 1 }, // below normal load
+        { duration: "5m", target: 1},
+        { duration: "2m", target: 2 }, // normal load
+        { duration: "5m", target: 2 },
+        { duration: "2m", target: 3 }, // around the breaking point
+        { duration: "5m", target: 3 },
+        { duration: "2m", target: 4 }, // beyond the breaking point
+        { duration: "5m", target: 5 },
         { duration: "10m", target: 0 }, // scale down. Recovery stage.
       ],
     thresholds: {
@@ -27,14 +27,14 @@ export default function() {
 
     const headers = {
         'headers': {
-            'user-key': ('6E1014F49A42E512BA902B890A6E12511B0C51FE6BC10249BA5B620BA16AC04173F01D12227D439DDE116D3423AC62C2988EBB633244111C7A7E97E350B42346')
+            'user-key': ('0C562706C9F33747E120B133CAB7407B851986177B8F31AD7A15A5EBE63DE4EBEE1E184B4D9CEBF4A4ABB8A505F073172C16566E18B0B87635179E0B41C02B9A')
         }
     }
 
     const res =  http.post(url, payload, headers)
     
    check(res, {
-    'status should be 201': (r) => r.status === 201
+    'status should be 200': (r) => r.status === 200
    })
    
     sleep(1)

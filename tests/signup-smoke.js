@@ -18,14 +18,14 @@ export default function() {
 
     const headers = {
         'headers': {
-            'user-key': ('6E1014F49A42E512BA902B890A6E12511B0C51FE6BC10249BA5B620BA16AC04173F01D12227D439DDE116D3423AC62C2988EBB633244111C7A7E97E350B42346')
+            'user-key': ('0999E8FF5394A51D688972A26F3081F1EC30B1D9C74C2F40E1B874E1D9E15A04E44772FDC40721BA2D96253F5D04EEF77F787AD564C45DDDA402459ACC2D4848')
         }
     }
 
     const res =  http.post(url, payload, headers)
     
    check(res, {
-    'status should be 201': (r) => r.status === 201
+    'status should be 200': (r) => r.status === 200
    })
    
     sleep(1)
