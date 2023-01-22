@@ -19,6 +19,10 @@ Nesta etapa foi desenvolvido um teste automatizado usando o framework Cypress e 
 - Os testes de frontend não se limitam aos campos obrigatórios e ao fluxo principal de cadastro das entidades. Explorando alguns dos fluxos alternativos para o cadastro de clientes e produtos, e a maioria dos seus campos não obrigatórios.
 - Implementação da biblioteca faker-js e faker-br, resultando em uma massa de teste com dados dinâmicos e aleatórios. Para evitar futuras dificuldades de manutenção caso o projeto mude as libs utilizadas para gerar os dados, foi criado um arquivo cypress/utils/mockData.js que concentra as funções para gerar os dados, permitindo assim, que a manutenção ou alteração das libs afete apenas 1 único arquivo, facilitando a solução.
 - Uso do cypress-plugin-api para upgrade na visualização gráfica dos testes de api.
+- Implementação de testes de performance na api utilizando o [Graphana k6](https://github.com/wesleyaju). A pasta /tests contém arquivos que servem para submeter a api a testes de carregamento e estresse:
+    * deal-smoke --> [Resultados do teste de funcionamento básico da api](https://gyazo.com/3adfd17f0851bba6025d59c0e591d6e6)
+    * deal-load --> [Resultados do teste com diversos usuários virtuais simnutâneos](https://gyazo.com/9303281d3abce8456d4e353769ab43cd)
+    * deal-stresse --> [Resultados do teste que submete e aplicação a diversas requisições por segundo com a finalidade de testar o desempenho sob pressão](https://gyazo.com/1344f014dc5f5b439e5271f2a1c255a6)
 
 ## 🔧 Instalação
  Essas instruções permitirão que você obtenha uma cópia do projeto em operação na sua máquina local para fins de desenvolvimento e teste.
